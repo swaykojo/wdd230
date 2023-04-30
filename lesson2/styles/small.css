@@ -29,8 +29,9 @@ h2{
     padding-bottom: 20px;
 }
 footer{
-    background-color: skyblue;
+    background-color: steelblue;
     text-align: center;
+    color: white;
 }
 .section-h3{
     background-color: white;
