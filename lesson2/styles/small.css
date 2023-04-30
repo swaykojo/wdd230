@@ -1,0 +1,43 @@
+body {
+    font-size: 16px;
+    font-family: 'Instrument Serif', serif;
+    font-family: 'Orbitron', sans-serif;
+}
+main {
+    margin: 0 auto;
+    display:grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+} 
+main section {
+    margin: 1rem;
+    border: 1px solid #bbb;
+    background-color: skyblue;
+    text-align: center;
+} 
+header {
+    background-color: steelblue;
+    color: white;
+    text-align: center;
+}
+h1{
+    margin-bottom: 5px;
+}
+h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 20px;
+}
+footer{
+    background-color: skyblue;
+    text-align: center;
+}
+.section-h3{
+    background-color: white;
+    font-size: 1.5rem;
+    margin-top: 0;
+    border-radius: 20px solid #bbb;
+}
+p{
+    font-size: 1.0rem;
+}
