@@ -1,0 +1,29 @@
+@media only screen and (min-width: 37.5em) {
+	h1 {
+		font-size: 1.5rem;
+	}
+    nav ul {
+		display: grid; 	grid-template-columns: repeat(3, 1fr); 
+		
+	} 
+
+	nav a {
+		font-size: 1rem;
+	}
+
+	nav a:hover {
+			background-color: #bbb;
+	color: #36454f; 
+		
+	}
+    footer p {
+		flex-direction: row;
+	}
+	
+	footer p span:not(:last-child)::after {
+		content: ' 🧪\00a0';
+	}
+	section table{
+        width: 767px;
+    }
+}
