@@ -1,0 +1,101 @@
+@media only screen and (min-width: 64rem) {
+   
+    nav button{
+        display: none;
+    }
+    nav ul#primaryNav{
+        display: flex;
+        margin-left: 2vw;
+    }
+    header img{
+        width: 100%;
+    }
+    .headings h1{
+        font-size: 2.3rem;
+        margin: 0;
+    } 
+    .gridContainer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        width: 100%;
+        height: 100vh;
+        
+    }
+    .event{
+        grid-column-start: 1;
+        grid-column-end: span 1;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        text-align: center;
+    }
+    .hero{
+        grid-column-start: 2;
+        grid-column-end: span 1;
+        grid-row-start: 1;
+        grid-row-end: span 2;
+        text-align: center;
+    }
+    .spotlights{
+        grid-column-start: 3;
+        grid-column-end: span 1;
+        grid-row-start: 1;
+        grid-row-end: 4; 
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .weather{
+        grid-column-start: 1;
+        grid-column-end: span 1;
+        grid-row-start: 2;
+        grid-row-end: 2;
+        text-align: center;
+    }
+    .join{
+        grid-column-start: 1;
+        grid-column-end: span 1;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        text-align: center;
+    }
+    .news{
+        grid-column-start: 2;
+        grid-column-end: span 1;
+        grid-row-start: 3;
+        grid-row-end: 4;
+        text-align: center;
+    }
+    .spot1, .spot2, .spot3{
+        border: 1px solid #333;
+        box-shadow: 0 0 10px #000;
+        margin: 10px;
+    }
+    footer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+    .logo-footer{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin-top: 15px;
+        margin-left: 50%;
+    }
+    .footer-date{
+        grid-column-start: 1;
+        grid-column-end: 4;
+        text-align: center;
+        border-top:  1px solid #333;
+    }
+    .location{
+        grid-column-start: 3;
+        grid-column-end: 2;
+        text-align: center;
+    }
+
+
+
+    
+    
+}

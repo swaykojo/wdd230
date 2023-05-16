@@ -1,0 +1,129 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    background: #2176AE;
+	align-items: center;
+	justify-content: space-evenly;
+    color: #fff;
+} 
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+}
+.logo img{
+    width: 100px;
+    height: auto;
+}
+.headings{
+    display:flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+}
+.headings h1{
+    font-size: 1.25rem;
+    margin-bottom: 0;
+}
+.m{
+    letter-spacing: 1PT;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 0;
+}
+.social {
+	margin-right: 1.5rem;
+}
+
+.social svg {
+	width: 42px;
+	height: auto;
+}
+nav{
+    background-color: #57B8FF;
+    display: flex;
+    justify-content: center;
+}
+nav button{
+    margin: .2rem 2vw;
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #fff;
+}
+nav ul { 
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li a{
+    display:block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: #fff;
+    border-top: 1px solid rgba(0,0,0,0.5)
+} 
+nav ul li a:hover{
+    background-color: rgba(0,0,0,0.3);
+} 
+nav ul {
+    display: none;
+}
+nav ul.open{
+    display: block;
+}
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+} 
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}
+#hamburgerBtn span:nth-child(1) {
+    display: block;
+} 
+#hamburgerBtn span:nth-child(2) {
+    display: none;
+}    
+time{
+    margin: 0;
+    border: 1px solid #bbb;
+    padding: 20px;
+    background-color: #2176AE; 
+} 
+footer{
+    display: grid;
+    background: #2176AE;
+	grid-template-columns: 1fr;
+    color: #fff;
+}
+.footing{
+    display:block;
+    
+} 
+.logo-footer img{
+    width: 100px;
+    height: auto;
+}
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap:10px;
+    padding: 10px;
+    width: 100%;
+    height: 100vh;
+
+}
+    .hero, .event, .weather, .news, .join, .spotlights{
+    border: 1px solid #333;
+    box-shadow: 0 0 10px #000;
+}
+
