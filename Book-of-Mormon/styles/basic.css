@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Smokum', cursive;
+}
+main{
+    margin: 1rem auto;
+    border: 1px solid rgba(0,0,0,0.1);
+    padding: 1rem;
+    background-color: #D2D7DF;
+    box-shadow: 10px 20px 3px #bdbbb0;
+}
+ul{
+    margin: 1rem;
+    list-style: none;
+    border: 1px solid #23231A;
+    padding: 10px;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1{
+    font-size: 1.5rem;
+}
+input, button{
+    font-size: 1.8rem;
+}
+button{
+    margin: 0.5rem;
+}
+label{
+    font-size: 1.5rem;
+}

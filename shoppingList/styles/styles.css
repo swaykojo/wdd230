@@ -1,0 +1,24 @@
+body{
+    font-size: 20px;
+}
+li{
+    margin-bottom: 10px;
+} 
+
+li button {
+    font-size: 12px;
+    margin-left: 20px;
+    color: #666;
+}
+.container{
+    background: aqua;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+}
+.header{
+    text-align: center;
+}
+.enter-container{
+    text-align: center;
+}
