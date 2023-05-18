@@ -23,3 +23,8 @@ button.addEventListener('click', () => {
 
     input.focus();
 });
+
+let d = new Date();
+const year = d.getFullYear()
+document.getElementById("currentdate").textContent = new Date()
+document.getElementById("todayyear").textContent = year
