@@ -16,34 +16,36 @@
     } 
     .gridContainer{
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
         width: 100%;
         height: 100vh;
+        
         
     }
     .event{
         grid-column-start: 1;
-        grid-column-end: span 1;
+        grid-column-end: 2;
         grid-row-start: 1;
         grid-row-end: 1;
         text-align: center;
+        background: radial-gradient(#eee,#57B8FF)
     }
     .hero{
         grid-column-start: 2;
-        grid-column-end: span 1;
+        grid-column-end: span 3;
         grid-row-start: 1;
-        grid-row-end: span 2;
-        text-align: center;
+        grid-row-end: 3;
+        position: relative;
     }
     .spotlights{
-        grid-column-start: 3;
-        grid-column-end: span 1;
+        grid-column-start: 5;
         grid-row-start: 1;
         grid-row-end: 4; 
         text-align: center;
         display: grid;
         grid-template-columns: 1fr;
+
     }
     .weather{
         grid-column-start: 1;
@@ -61,15 +63,17 @@
     }
     .news{
         grid-column-start: 2;
-        grid-column-end: span 1;
+        grid-column-end: span 3;
         grid-row-start: 3;
         grid-row-end: 4;
         text-align: center;
+
     }
     .spot1, .spot2, .spot3{
         border: 1px solid #333;
         box-shadow: 0 0 10px #000;
         margin: 10px;
+        background: radial-gradient(#eee,#57B8FF)
     }
     footer {
         display: grid;
@@ -92,7 +96,10 @@
         grid-column-start: 3;
         grid-column-end: 2;
         text-align: center;
-    }
+    } 
+    
+    
+    
 
 
 

@@ -126,4 +126,62 @@ footer{
     border: 1px solid #333;
     box-shadow: 0 0 10px #000;
 }
+.hero{
 
+}
+.event{
+    text-align: center;
+    background: radial-gradient(#eee,#57B8FF)
+}
+.weather{
+    text-align: center;
+    background: radial-gradient(#eee,#57B8FF)
+} 
+.news {
+    text-align: center;
+    background: radial-gradient(#eee,#57B8FF)
+}
+.join{
+    text-align: center;
+    background: radial-gradient(#eee,#57B8FF)
+}
+.spotlights {
+    text-align: center;
+    background: radial-gradient(#eee,#57B8FF)
+}
+#hero-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.welcome{
+    position: absolute;
+    top: 25px;
+    left: 50px;
+    color: #2176AE;
+    box-shadow: 0 0 30px #333;
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.hero-join{
+    position:absolute;
+    bottom: 10px;
+    right: 50px;
+    background:  #57B8FF;
+    padding: 0.5rem;
+    border-radius: 20px;
+    opacity: 0.8;
+
+}
+h3{
+    color: #ffff;
+}
+.join-header{
+    background: #2176AE;
+    padding: 0.5rem;
+    margin: 1.0rem;
+    border-radius: 10px;
+}
+.img-spot{
+    width: 10px;
+}
