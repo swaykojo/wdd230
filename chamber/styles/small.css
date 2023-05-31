@@ -99,20 +99,7 @@ time{
     padding: 20px;
     background-color: #2176AE; 
 } 
-footer{
-    display: grid;
-    background: #2176AE;
-	grid-template-columns: 1fr;
-    color: #fff;
-}
-.footing{
-    display:block;
-    
-} 
-.logo-footer img{
-    width: 100px;
-    height: auto;
-}
+
 .gridContainer{
     display: grid;
     grid-template-columns: 1fr;
@@ -131,6 +118,7 @@ footer{
     background: radial-gradient(#eee,#57B8FF)
 }
 .weather{
+    display: grid;
     text-align: center;
     background: radial-gradient(#eee,#57B8FF)
 } 
@@ -146,28 +134,25 @@ footer{
     text-align: center;
     background: radial-gradient(#eee,#57B8FF)
 }
-#hero-img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+
 .welcome{
-    position: absolute;
-    top: 25px;
-    left: 50px;
     color: #2176AE;
+    width: 90%;
     box-shadow: 0 0 30px #333;
     padding: 0.5rem;
     border-radius: 10px;
+    grid-area: 1/1/2/4;
+    margin: auto 10px;
+    
 }
 .hero-join{
-    position:absolute;
-    bottom: 10px;
-    right: 50px;
+    width: 90%;
     background:  #57B8FF;
     padding: 0.5rem;
-    border-radius: 20px;
+    border-radius: 10px;
     opacity: 0.8;
+    grid-area: 3/4/5/7;
+    margin: auto 10px;
 
 }
 h3{
@@ -182,3 +167,33 @@ h3{
 .img-spot{
     width: 10px;
 }
+.hero-img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+.hero{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    text-align: center;
+}
+picture{
+    grid-area: 1/1/4/7;
+}
+footer{
+    display: grid;
+    background: #2176AE;
+	grid-template-columns: 1fr;
+    color: #fff;
+}
+.footing{
+    display:block;
+    
+} 
+.logo-footer img{
+    width: 100px;
+    height: auto;
+}
+
+

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 64rem) {
+@media only screen and (min-width: 800px) {
    
     nav button{
         display: none;
@@ -97,6 +97,7 @@
         grid-column-end: 2;
         text-align: center;
     } 
+
     
     
     
