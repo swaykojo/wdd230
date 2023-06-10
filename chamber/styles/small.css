@@ -195,5 +195,33 @@ footer{
     width: 100px;
     height: auto;
 }
+.City-imgs{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.discover{
+    background: radial-gradient(#eee,#57B8FF);
+    padding: 10px;
+} 
+#osu{
+    object-fit: cover;
+}
+#makola{
+   
+    object-fit: cover;
+}
+#kwame{
+    object-fit: cover;
+}
+#flagstaff{
+    object-fit: cover;
+}
+#james{
+    object-fit: cover;
+}
 
 
