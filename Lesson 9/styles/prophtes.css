@@ -1,32 +1,24 @@
-:root {
-    --paynes-gray: #5E6572;
-    --powder-blue: #A9B4C2;
-    --black: #000000;
-    --licorice: #251819;
-}
+
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h1 {
-    color: var(--powder-blue);
+    color: black;
     padding: 15px;
 }
 
 header, footer {
     text-align: center;
     padding: 10px;
-    background-color: var(--licorice);
+    background-color: #E0A890;
     font-size: small;
 }
 
 footer p {
     padding: 15px;
     margin-top: 0;
-}
-footer div {
-    color: var(--paynes-gray);
 }
 
 div.cards {
@@ -39,27 +31,27 @@ div.cards {
 div.cards img {
     width: 250px;
     height: auto;
-    box-shadow: 10px 10px 20px var(--licorice);
+    box-shadow: 10px 10px 20px #70B77E;
 }
 
 section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--paynes-gray);
-    color: var(--powder-blue);
+    background-color: #70B77E;
+    color: white;
 }
 
 section p {
-    border: thin solid var(--licorice);
+    border: thin solid whitesmoke;
     padding: 5px;
-    box-shadow: 0 0 5px var(--licorice);
+    box-shadow: 0 0 5px #70B77E;
 }
 
 h2 {
-    text-shadow: 3px 3px 5px var(--licorice);
+    text-shadow: 3px 3px 5px #70B77E;
     font-size: larger;
 } 
 footer{
-    color: var(--powder-blue);
+    color: black;
 }
