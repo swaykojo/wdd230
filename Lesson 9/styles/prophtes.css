@@ -1,0 +1,65 @@
+:root {
+    --paynes-gray: #5E6572;
+    --powder-blue: #A9B4C2;
+    --black: #000000;
+    --licorice: #251819;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: var(--powder-blue);
+    padding: 15px;
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px;
+    background-color: var(--licorice);
+    font-size: small;
+}
+
+footer p {
+    padding: 15px;
+    margin-top: 0;
+}
+footer div {
+    color: var(--paynes-gray);
+}
+
+div.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(288px, 1fr));
+    padding: 10px;
+    gap: 5px;
+}
+
+div.cards img {
+    width: 250px;
+    height: auto;
+    box-shadow: 10px 10px 20px var(--licorice);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--paynes-gray);
+    color: var(--powder-blue);
+}
+
+section p {
+    border: thin solid var(--licorice);
+    padding: 5px;
+    box-shadow: 0 0 5px var(--licorice);
+}
+
+h2 {
+    text-shadow: 3px 3px 5px var(--licorice);
+    font-size: larger;
+} 
+footer{
+    color: var(--powder-blue);
+}
