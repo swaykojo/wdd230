@@ -2,6 +2,7 @@
     "businesses": [
         {
          "name": "MTN",
+         "logo": "images/MTN.jpg",
          "address": "25 Independence Ave, Accra",
          "phone": "024 430 0000",
          "link": "https://www.mtn.com.gh/"
@@ -9,18 +10,21 @@
         }, 
         {
           "name": "ECOBANK",
+          "logo": "images/ECOBANK.jpg",
           "address": "Ecobank Ghana Plc (Head Office), Ministerial Area, 2 Morocco Lane, Off Independence Ave, Accra",
           "phone": "302 213 999",
           "link": "https://ecobank.com/gh/personal-banking/countries"
         }, 
         {
            "name": "AMC",
+           "logo": "images/accramedical.png",
            "address": "6 Angola Close, Ringway, Osu, Accra",
            "phone": "020 409 6099",
            "link": "https://accramed.com/"
         },
         {
             "name": "ALISA HOTELS",
+            "logo": "images/Alisa hotels.jpg",
             "address": "21 Dr. Issert Rd, North Ridge - Accra",
             "phone": "+233 (0) 302214233",
             "link": "https://m.alisahotels.com/"
@@ -28,12 +32,14 @@
         },
         {
             "name": "CASA TRASACCO",
+            "logo": "images/casa-trasacco-logo.png",
             "address": " Behind Accra Mall Tetteh Quarshie Circle",
             "phone": "+233 0302 823 287",
             "link": "https://www.casatrasacco.com/?gclid=Cj0KCQjwtO-kBhDIARIsAL6Lorc1Yqfn0_vxW54qqI1Ir4RERmK1U6jBNPrKdE6_zSWe1hRE2oteWJkaAu8REALw_wcB"
         }, 
         {
             "name": "DZATA", 
+            "logo": "images/dazta.png",
             "address": "ema Harbour Enclave, Opposite APM Terminal Tema. Ghana",
             "phone": "+233 55 155 6888",
             "link": "https://www.dzatacement.com/?page_id=1655"
@@ -41,22 +47,24 @@
         },
         {
             "name": "ERNEST CHEMISTS",
+            "logo": "images/Ernest Chemist.jpg",
             "address": "Ring Road Central, Accra",
             "phone": "030 396 5675",
             "link": "https://ernestchemists.com/"
         },
         {
-            "name": "KPMG", 
+            "name": "KPMG",
+            "logo": "images/kpmg-logo-1.webp", 
             "address": "KPMG, Marlin House, 13 Yiyiwa Dr, Accra",
             "phone": "030 277 0454",
             "link": "https://kpmg.com/gh/en/home.html"
         },
         {
             "name": "DataBank", 
+            "logo": "images/databanklogo-1.png",
             "address": "61 Barnes Avenue Adabraka, Accra",
             "phone": "030 261 0610",
             "link": "https://www.databankgroup.com/"
         }
-
     ]
 }
