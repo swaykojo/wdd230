@@ -335,6 +335,43 @@ footer{
 	padding: 1rem;
 	font-weight: 700;
 } 
+/******************/
+/* contact */
+/******************/
+
+.C-info{
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+.C-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+} 
+.C-address{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
+.C-container{
+    background: radial-gradient(#eee,#57B8FF);
+}
+#C-image{
+    width: 100%;
+    object-fit: cover;
+}
+.submitBtn{
+    border: none;
+    background: #2176AE;
+    color: white;
+    padding: .75rem 1.5rem;
+    width: 100%;
+}
+
+
+
 
 
  
