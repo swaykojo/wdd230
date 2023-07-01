@@ -117,11 +117,7 @@ time{
     text-align: center;
     background: radial-gradient(#eee,#57B8FF)
 }
-.weather{
-    display: grid;
-    text-align: center;
-    background: radial-gradient(#eee,#57B8FF)
-} 
+
 .news {
     text-align: center;
     background: radial-gradient(#eee,#57B8FF)
@@ -145,6 +141,108 @@ time{
     margin: auto 10px;
     
 }
+/******************/
+/* WEATHER */
+/******************/
+.weather{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    justify-content: space-evenly;
+    max-width: 500px;
+    min-width: 300px;
+    background: radial-gradient(#eee,#57B8FF)
+} 
+.load-animation {
+    width: 200px;
+    height: 158px;
+    margin: 0 auto;
+    position: relative;
+    text-align: left;
+  }
+  
+  .lds-ripple {
+    display: inline-block;
+    position: relative;
+    height: 100%;
+    margin: 0 auto;
+  }
+  
+  .lds-ripple div {
+    position: absolute;
+    border: 4px solid var(--primary01);
+    opacity: 1;
+    border-radius: 50%;
+    animation: lds-ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  }
+  
+  .lds-ripple div:nth-child(2) {
+    animation-delay: -0.5s;
+  }
+
+.server-error {
+    display: none;
+  }
+  
+  .server-error figcaption {
+    font-size: 0.89rem;
+  }
+  
+  .home-main .weather .weather-separator-01 {
+    display: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    gap: var(--white-space);
+  }
+  
+  .weather .weather-separator-01 p {
+    font-size: 3rem;
+  }
+  
+  .weather img {
+    width: 90px;
+  }
+  
+  .weather .weather-separator-02 {
+    display: none;
+  }
+  
+  .weather hr {
+    margin: calc(var(--white-space) / 2) 0;
+  }
+  
+  .weather-separator-03 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 var(--white-space)
+  }
+  
+  .weather-separator-03 p:first-child {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    text-align: end;
+  }
+  
+  .weather-separator-03 p:nth-child(2) {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    text-align: end;
+  }
+  
+  .weather-separator-03 p:nth-child(3) {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    text-align: start;
+  }
+  
+  .weather-separator-03 p:last-child {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    text-align: start;
+  }
 .hero-join{
     width: 90%;
     background:  #57B8FF;
@@ -233,11 +331,12 @@ footer{
 	background: radial-gradient(#eee,#57B8FF);
 	text-align: center;
 }
-
 .menu button {
 	padding: 1rem;
 	font-weight: 700;
 } 
+
+
  
 
 

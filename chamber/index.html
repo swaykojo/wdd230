@@ -71,12 +71,34 @@
             </P>
         </div>
         <div class="weather">
-            <h3>Weather</h3>
-            <img src="images/cloudy.png" >
-            <div>51°C</div>
-            <div>Cloudy</div>
-            <div>Humidity: 60%</div>
-            <div>Wind speed: 6.2 km/h</div>
+            <h2>Weather</h2>
+            <div class="server-error">
+                <figure>
+                  <img src="images/error.svg" alt="Image of server error" height="80">
+                  <figcaption>
+                    We apologize for the inconvenience
+                  </figcaption>
+                </figure>
+              </div>
+            <div class="load-animation">
+              <div class="lds-ripple"><div></div><div></div></div>
+            </div>
+            <div class="weather-separator-01">
+              <picture>
+                <img id="weather-image" src="" alt="">
+              </picture>
+              <p><span id="temperature"></span>°F</p>
+            </div>
+            <div class="weather-separator-02">
+              <p><strong  id="weather-description"></strong></p>
+              <hr>
+              <div class="weather-separator-03">
+                <p>Wind Speed:</p>
+                <p>Wind Chill:</p>
+                <p><span id="wind-speed">55</span> km/h</p>
+                <p><span id="windchill"></span></p>
+              </div>
+            </div>
         </div>
         <div class="news">
             <h3>News Release</h3>
@@ -128,5 +150,6 @@
         </div>
     </footer>
     <script src="scripts/scripts.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
