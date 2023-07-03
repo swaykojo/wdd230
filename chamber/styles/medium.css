@@ -49,11 +49,6 @@
             grid-row-start: 4;
             grid-column-end: span 2;
     }
-
-    footer{
-          display: flex;
-          justify-content: space-around;
-    }
     .logo-footer{
           display:flex;
     } 
