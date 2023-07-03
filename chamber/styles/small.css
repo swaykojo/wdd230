@@ -412,6 +412,69 @@ box-shadow: 10px 10px 3px rgba(0,0,0,0.2);
     width: 100%;
 }
 
+/******************/
+/* join */
+/******************/
+.join-form{
+    margin: 10px auto;
+    width: 50%;
+    padding: 10px;
+    background: radial-gradient(#eee,#57B8FF);
+}
+.join-form h2{
+    text-align: center;
+    padding: 1.5rem;
+}
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: 1rem;
+}
+form legend {
+    color: #1C448E;
+    margin: 0 1rem;
+    padding: 0 .5rem;
+    font-size: 1.5rem;
+}
+form label.top, form div{
+    display: block;
+    padding-top: 1rem;
+    color: white;
+    font-size: 1.5rem;
+} 
+form label.top input, form label.top select,  form label.top textarea{
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0,0,0,0.1);
+}
+form label.sbs{
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+form input.submitBtn{
+    border: none;
+    background: #2176AE;
+    color: white;
+    padding: .75rem 1.5rem;
+    margin: 20px auto;
+    width: 96%;
+    max-width: 20rem;
+}
+form label.top input:required {
+    border-left: #1C448E solid 6px;
+}
+form label.top input:required:valid {
+    border-left: green solid 6px;
+}
+
 
 
 
