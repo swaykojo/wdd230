@@ -94,43 +94,15 @@
         grid-column-end: 2;
         text-align: center;
     } 
-    .City-imgs{
-        display: grid;
-        grid-template-columns: 1fr;
-        padding: 10px;
-        width: 100%;
-        height: 100%;
-        text-align: center;
-    }
+    /*----------- Discover --------------*/
     .discover{
-        background-color:  radial-gradient(#eee,#57B8FF);
+        display: flex;
+       flex-direction: column;
         padding: 10px;
+        color: white;
+      
     }
-    #osu{
-        float: left;
-        border-radius: 5px;
-        padding: 1em;
-    }
-    #makola{
-        float:right;
-        border-radius: 5px;
-        padding: 1em;
-    }
-    #kwame{
-        float: left;
-        border-radius: 5px;
-        padding: 1em;
-    }
-    #flagstaff{
-        float: right;
-        border-radius: 5px;
-        padding: 1em;
-    }
-    #james{
-        float: left;
-        border-radius: 5px;
-        padding: 1em;
-    }
+   
     
     /*----------- FORM --------------*/
 .join-form{

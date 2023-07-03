@@ -293,18 +293,60 @@ footer{
     width: 100px;
     height: auto;
 }
+
+/* Discover */
+
 .City-imgs{
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
     padding: 10px;
-    width: 100%;
-    height: 100%;
+    gap: 10px;
     text-align: center;
+    background: radial-gradient(#eee,#57B8FF);
 }
 .discover{
-    background: radial-gradient(#eee,#57B8FF);
     padding: 10px;
 } 
+.dis-demo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.dis-card{
+border-radius: 10px;
+margin: 10px 500px;
+background-color: #57B8FF;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+padding: 10px;
+flex-wrap: nowrap;
+box-shadow: 10px 10px 3px rgba(0,0,0,0.2);
+}
+#d-images{
+    border-radius: 50px;
+}
+.demo-p{
+border-radius: 10px;
+margin: 10px 500px;
+background-color: #57B8FF;
+padding: 10px;
+box-shadow: 10px 10px 3px rgba(0,0,0,0.2);
+}
+#last-visit{
+    text-align: center;
+    background: radial-gradient(#eee,#57B8FF);
+}
+#top-place{
+    color: #000;
+}
+.dis-card:hover{
+    filter: blur(2px);
+}
 
 /******************/
 /* MAIN-DIRECTORY */
